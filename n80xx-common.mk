@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/n80xx-common/configs/audio_policy.conf:system/etc/audio_policy.conf
 
+# DEMENTED bootanimation...Credit JaeKar
+PRODUCT_COPY_FILES +=  \
+    vendor/DEMENTED/prebuilt/common/media/mdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Packages
 PRODUCT_PACKAGES += \
     libsecril-client \
